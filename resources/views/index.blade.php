@@ -2,7 +2,7 @@
 
 @section('container')
 
-    {{-- <!DOCTYPE html>
+    {{-- {{-- <!DOCTYPE html> --}}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,17 +15,15 @@
 </head>
 <body>
 
-    <!--Header section starts-->
-
-     <!--Header section ends-->
-
+    
+  
 
      <!--Home section starts-->
      <section class="home" id="home">
         <div class="content">
             <h3>Fresh Flowers</h3>
             <span>Natural & beautiful flowers</span>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit eveniet aliquid accusamus culpa adipisci excepturi, Itaque, molestiae voluptatem!</p>
+            <p>Selamat datang di Hanza Florist, tempat magis yang mengundang anda merayakan setiap momen istimewa dengan keindahan bunga. Mari bersama-sama hiasi kehidupan dengan pesona bunga yang tak terlupakan.</p>
             <a href="#products" class="btn"> Shop Now</a>
         </div>
      </section>
@@ -44,8 +42,8 @@
         </div>
         <div class="content">
             <h3>why choose us?</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda nam cumque quasi autem blanditiis eaque laboriosam, neque alias sequi! Minus voluptatem expedita incidunt amet vel repellendus rem nisi minima animi?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quo illum perferendis sapiente iusto distinctio! Esse maxime laborum vero, eligendi, sint impedit nulla fugit fugiat qui harum sapiente natus cum.</p>
+            <p>Website Hanza Florist adalah destinasi online yang memikat, menawarkan pengalaman berbelanja bunga yang elegan dan layanan pengiriman tepat waktu, menjadikan setiap momen lebih berwarna.</p>
+            <p>Dengan galeri rangkaian bunga yang memikat dan antarmuka yang ramah pengguna, Hanza Florist mengajak pelanggan untuk menjelajahi keindahan alam dalam setiap klik.</p>
             <a href="#" class="btn">Learn More</a>
 
         </div>
@@ -53,6 +51,7 @@
 </section>
 
   <!--About section ends-->
+
 
 <!--icons section starts-->
 
@@ -102,9 +101,9 @@
             <div class="image">
                 <img src="/images/img-1.jpg" alt="">
                 <div class="icons">
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">add to cart</a>
-                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
+                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>                    
                 </div>
             </div>
             <div class="content">
@@ -118,9 +117,9 @@
             <div class="image">
                 <img src="/images/img-2.jpg" alt="">
                 <div class="icons">
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">add to cart</a>
-                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
+                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
                 </div>
             </div>
             <div class="content">
@@ -134,9 +133,9 @@
             <div class="image">
                 <img src="/images/img-3.jpg" alt="">
                 <div class="icons">
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">add to cart</a>
-                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
+                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
                 </div>
             </div>
             <div class="content">
@@ -150,9 +149,9 @@
             <div class="image">
                 <img src="/images/img-4.jpg" alt="">
                 <div class="icons">
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">add to cart</a>
-                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
+                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
                 </div>
             </div>
             <div class="content">
@@ -166,9 +165,9 @@
             <div class="image">
                 <img src="/images/img-5.jpg" alt="">
                 <div class="icons">
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">add to cart</a>
-                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
+                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
                 </div>
             </div>
             <div class="content">
@@ -182,9 +181,9 @@
             <div class="image">
                 <img src="/images/img-6.png" alt="">
                 <div class="icons">
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">add to cart</a>
-                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
+                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
                 </div>
             </div>
             <div class="content">
@@ -198,9 +197,9 @@
             <div class="image">
                 <img src="/images/img-7.jpg" alt="">
                 <div class="icons">
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">add to cart</a>
-                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
+                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
                 </div>
             </div>
             <div class="content">
@@ -214,9 +213,9 @@
             <div class="image">
                 <img src="/images/img-8.jpg" alt="">
                 <div class="icons">
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">add to cart</a>
-                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
+                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
                 </div>
             </div>
             <div class="content">
@@ -230,9 +229,9 @@
             <div class="image">
                 <img src="/images/img-9.jpg" alt="">
                 <div class="icons">
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">add to cart</a>
-                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
+                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
                 </div>
             </div>
             <div class="content">
@@ -246,9 +245,9 @@
             <div class="image">
                 <img src="/images/img-10.png" alt="">
                 <div class="icons">
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">add to cart</a>
-                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
+                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
                 </div>
             </div>
             <div class="content">
@@ -262,9 +261,9 @@
             <div class="image">
                 <img src="/images/img-11.png" alt="">
                 <div class="icons">
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">add to cart</a>
-                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
+                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
                 </div>
             </div>
             <div class="content">
@@ -278,9 +277,9 @@
             <div class="image">
                 <img src="/images/img-12.png" alt="">
                 <div class="icons">
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">add to cart</a>
-                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
+                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
                 </div>
             </div>
             <div class="content">
@@ -305,7 +304,7 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
             </div>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt tenetur voluptas quibusdam voluptate aperiam eligendi, at velit enim? Odit quibusdam possimus necessitatibus atque at quia ut omnis, sunt corrupti! Id!</p>
+            <p>"Saya sangat terkesan dengan keindahan dan kemudahan penggunaan website Hanza Florist; layanan pengiriman yang tepat waktu dan kualitas bunga yang luar biasa membuat setiap pembelian di sini menjadi pengalaman berbelanja online yang memuaskan."</p>
             <div class="user">
                 <img src="/images/pic-1.png" alt="">
                 <div class="user-info">
@@ -324,7 +323,7 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
             </div>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt tenetur voluptas quibusdam voluptate aperiam eligendi, at velit enim? Odit quibusdam possimus necessitatibus atque at quia ut omnis, sunt corrupti! Id!</p>
+            <p>"Pengalaman berbelanja di Hanza Florist sungguh luar biasa; navigasi yang intuitif, pilihan bunga yang beragam, dan sentuhan personalisasi pada setiap rangkaian bunga menjadikan situs ini pilihan utama saya untuk merayakan momen istimewa."</p>
             <div class="user">
                 <img src="/images/pic-2.png" alt="">
                 <div class="user-info">
@@ -343,7 +342,7 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
             </div>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt tenetur voluptas quibusdam voluptate aperiam eligendi, at velit enim? Odit quibusdam possimus necessitatibus atque at quia ut omnis, sunt corrupti! Id!</p>
+            <p>"Website Hanza Florist memberikan pengalaman belanja bunga yang tak terlupakan; kualitas produk yang luar biasa, desain yang indah, dan pelayanan pelanggan yang ramah membuat setiap kunjungan online saya menjadi momen istimewa."</p>
             <div class="user">
                 <img src="/images/pic-3.png" alt="">
                 <div class="user-info">
@@ -362,7 +361,7 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
             </div>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt tenetur voluptas quibusdam voluptate aperiam eligendi, at velit enim? Odit quibusdam possimus necessitatibus atque at quia ut omnis, sunt corrupti! Id!</p>
+            <p>"Hanza Florist tidak hanya menawarkan bunga yang cantik, tetapi juga menyuguhkan pengalaman berbelanja yang menyenangkan; saya sangat terkesan dengan kemudahan pesanannya, pilihan rangkaian yang menawan, dan ketepatan waktu pengirimannya."</p>
             <div class="user">
                 <img src="/images/pic-4.jpg" alt="">
                 <div class="user-info">
@@ -380,7 +379,7 @@
 
 
 </body>
-</html> --}}
+</html> 
 
     <h2 class="fw-bold">Kotak Saran Umum</h2>
     <form method="post" action="{{route('contacts.store')}}">
@@ -397,7 +396,17 @@
       <textarea class="form-control" placeholder="Tinggalkan pesan disini!" id="floatingTextarea2" style="height: 100px;" name="kotaksaran"></textarea>
       <label for="floatingTextarea2">Saran / Kritik</label>
     </div>
-      <button type="submit" class="btn btn-primary">Kirim</button>
+    <a href="#">
+      <button type="submit" class="btn btn-primary" onclick="showAlert()">Kirim</button>
+    </a>
+    <body>
+        <script>
+            function showAlert(){
+                alert('Isi dulu yaaa!!');
+            }
+        </script>
+    </body>
+    
     </form>
 @endsection 
        

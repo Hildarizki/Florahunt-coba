@@ -1,7 +1,7 @@
 <aside class="menu-sidebar d-none d-lg-block ">
             <div class="logo">
                 <a href="#">
-                    <img src="{{asset('images/hanzaa.png')}}" alt="Absensi Karyawan" />
+                    <img src="{{asset('images/hanzaa.png')}}"/>
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
@@ -35,9 +35,9 @@
                                 {{-- <i class="fas fa-chart-bar"></i>Data Kotak Saran</a> --}}
                         </li>
                         <li>
-                            <a href="table.html"style="text-decoration:none;" >
+                            {{-- <a href="table.html"style="text-decoration:none;" >
                                 <i class="fas fa-table"></i>Data Barang</a>
-                        </li>
+                        </li> --}}
                         <li>
                             <a href="form.html"style="text-decoration:none;">
                                 {{-- <i class="far fa-check-square"></i>Forms</a> --}}

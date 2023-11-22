@@ -51,5 +51,5 @@ Route::group(['middleware' => ['auth']], function (){
     Route::get('/contacts/{id}/destroy', [ContactController::class, 'destroy'])->name('contacts.destroy'); 
 });
 
-Route::get('/contacts/create', [ContactController::class, 'create'])->name('contacts.create');
+Route::post('/', [ContactController::class, 'create'])->name('contacts.create');
 Route::post('/contacts/create', [ContactController::class, 'store'])->name('contacts.store');
