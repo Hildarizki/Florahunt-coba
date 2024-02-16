@@ -20,9 +20,9 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/about', function () {
-    return view('about', [
-        "title" => "About",
+Route::get('/product', function () {
+    return view('product', [
+        "title" => "Product",
         "nama" => "Hilda Rizki Aulia",
         "email" => "hildariskia11@gmail.com",
         "gambar" => "hilda.jpeg"
@@ -30,9 +30,9 @@ Route::get('/about', function () {
 });
 
 
-Route::get('/gallery', function () {
-    return view('gallery', [
-        "title" => "Gallery"
+Route::get('/cart', function () {
+    return view('cart', [
+        "title" => "Cart"
     ]);
 });
 

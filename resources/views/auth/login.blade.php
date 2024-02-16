@@ -23,7 +23,7 @@
                     <div class="login-content">
                         <div class="login-logo">
                             <a href="#">
-                                <img src="{{asset('images/hanza3.png')}}" alt="Absensi Karyawan">
+                                <img src="{{asset('images/logo-florahunt.png')}}">
                             </a>
                         </div>
                         <div class="login-form">
@@ -35,8 +35,21 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Password</label>
-                                    <input class="au-input au-input--full" type="password" name="password" placeholder="Password">
+                                    <input class="au-input au-input--full" type="password" name="password" id="password" placeholder="Password">
+                                    <input type="checkbox" onclick="showPassword()"> Show Password
                                 </div>
+                                {{-- Functionnya --}}
+                                <script>
+                                    function showPassword() {
+                                        var passwordField = document.getElementById("password");
+                                        if (passwordField.type === "password") {
+                                            passwordField.type = "text";
+                                        } else {
+                                            passwordField.type = "password";
+                                        }
+                                    }
+                                </script>
+                                
                                 {{-- <div class="login-checkbox">
                                     <label>
                                         <input type="checkbox" name="remember">Remember Me

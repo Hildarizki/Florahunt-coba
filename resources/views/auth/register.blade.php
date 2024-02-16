@@ -24,7 +24,7 @@
                     <div class="login-content">
                         <div class="login-logo">
                             <a href="#">
-                                <img src="{{asset('images/hanza3.png')}}" alt="Absensi Karyawan">
+                                <img src="{{asset('images/logo-florahunt.png')}}" alt="Absensi Karyawan">
                             </a>
                         </div>
                         <div class="login-form">
@@ -34,14 +34,33 @@
                                     <label>Nama</label>
                                     <input class="au-input au-input--full" type="text" name="name" placeholder="Nama">
                                 </div>
-                                <div class="form-group">
+                                {{-- <div class="form-group">
                                     <label>Email Address</label>
                                     <input class="au-input au-input--full" type="email" name="email" placeholder="Email">
-                                </div>
-                                <div class="form-group">
-                                    <label>Password</label>
-                                    <input class="au-input au-input--full" type="password" name="password" placeholder="Password">
-                                </div>
+                                </div> --}}
+                                <div class="login-form">
+                                    <form action="{{route('login')}}" method="post">
+                                        @csrf
+                                        <div class="form-group">
+                                            <label>Email Address</label>
+                                            <input class="au-input au-input--full" type="email" name="email" placeholder="Email">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Password</label>
+                                            <input class="au-input au-input--full" type="password" name="password" id="password" placeholder="Password">
+                                            <input type="checkbox" onclick="showPassword()"> Show Password
+                                        </div>
+                                        {{-- Functionnya --}}
+                                        <script>
+                                            function showPassword() {
+                                                var passwordField = document.getElementById("password");
+                                                if (passwordField.type === "password") {
+                                                    passwordField.type = "text";
+                                                } else {
+                                                    passwordField.type = "password";
+                                                }
+                                            }
+                                        </script>
                                 <div class="form-group">
                                     <label>Password Confirmation</label>
                                     <input class="au-input au-input--full" type="password" name="password_confirmation" placeholder="Password">

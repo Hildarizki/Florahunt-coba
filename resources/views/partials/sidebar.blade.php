@@ -1,15 +1,15 @@
 <aside class="menu-sidebar d-none d-lg-block ">
             <div class="logo">
                 <a href="#">
-                    <img src="{{asset('images/hanzaa.png')}}"/>
+                    <img src="{{asset('images/logo-florahunt.png')}}"/>
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
                         <li class="active has-sub">
-                            <a class="js-arrow" href="#"style="text-decoration:none;">
-                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                            {{-- <a class="js-arrow" href="#"style="text-decoration:none;"> --}}
+                                {{-- <i class="fas fa-tachometer-alt"></i>Dashboard</a> --}}
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 {{-- <li>
                                     <a href="index.html">Dashboard 1</a>
@@ -28,7 +28,7 @@
                         <li>
                             <li class="nav-item {{ Request::is('contacts.index') ? 'active' : '' }}">
                                 <a class="nav-link" href="{{ route('contacts.index') }}">
-                                    <i class="fas fa-chart-bar"></i>Data Kotak Saran</a>
+                                    <i class="fas fa-chart-bar"></i>Data Pesanan</a>
                                 </a>
                             </li>
                             {{-- <a href="{{ route('contacts.index') }}"style="text-decoration:none;" > --}}

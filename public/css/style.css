@@ -4,7 +4,7 @@
 
 /*  =====CCS Navbar==== */
 .bg-custom { /* untuk bg di navbar*/
-    background-color: #ea64a5; /* Ganti warna sesuai kebutuhan  */
+    background-color: #014E2C; /* Ganti warna sesuai kebutuhan  */
   }
 
   /* CSS untuk Navbar Brand Hanza Florist */
@@ -65,20 +65,20 @@ section{
 }
 
 .heading span{
-    color: var(--pink);
+    color: #014E2C;
 }
 .btn{
     display: inline-block;
     margin-top: 1rem;
     border-radius: 5rem;
-    background: #333;
+    background: #014E2C;
     color: #fff;
     padding: .9rem 3.5rem;
     cursor: pointer;
     font-size: 1.7rem;
 }
 .btn:hover{
-    background: var(--pink);
+    background: #9ADBC0;
 }
 header{
     position: fixed;
@@ -137,35 +137,41 @@ header .fa-bars{
 }
 
 
-.home{
+.home {
     display: flex;
     align-items: center;
-    border-radius: 14px;
+    border-radius: 10px;
     min-height: 100vh;
-    background: url(/images/bg-tulip33.jpg) no-repeat;
+    background: url(/images/bg-f11.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
+
+
 
 .home .content{
     max-width: 50rem;
 }
 
-.home .content h3{
-    font-size: 6rem;
-    color: #333;
+.home .content h3 {
+    font-size: 54px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #000000;
 }
 
+
 .home .content span{
-    font-size: 3.5rem;
-    color:var(--pink);
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
     padding: 1rem 0;
     line-height: 1.5;
 }
 
 .home .content p{
     font-size: 2rem;
-    color:#999;
+    color:#014E2C;
     padding: 1rem 0;
     line-height: 1.5;
 }
@@ -227,6 +233,37 @@ header .fa-bars{
 
 }
 
+.about .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about .content {
+    flex: 1;
+}
+
+.about .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.about .grid-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Penyesuaian agar konten berada di sebelah kiri */
+@media (min-width: 768px) {
+    .about .content {
+        order: 1;
+    }
+
+    .about .image-grid {
+        order: 2;
+    }
+}
+
 .icons-container{
     background: #eee;
     display: flex;
@@ -282,8 +319,8 @@ header .fa-bars{
     top: 1rem; left: 1rem;
     padding: .7rem 1rem;
     font-size: 2rem;
-    color: var(--pink);
-    background: rgba(255,51,153,0.5);
+    color: #014E2C;
+    background: #9ADBC0;
     z-index: 1;
     border-radius: .5rem;
 }
@@ -318,7 +355,7 @@ header .fa-bars{
     line-height: 5rem;
     font-size: 2rem;
     width: 50%;
-    background: var(--pink);
+    background:#014E2C;
     color: #fff;
 }
 
@@ -344,14 +381,14 @@ header .fa-bars{
 
 .products .box-container .box .content .price{
     font-size: 2.5rem;
-    color: var(--pink);
+    color: #014E2C;
     font-weight: bolder;
     padding-top: 1rem;
 }
 
 .products .box-container .box .content .price span{
     font-size: 1.5rem;
-    color: #999;
+    color: #014E2C;
     font-weight: lighter;
     text-decoration: line-through;
 }
@@ -382,7 +419,7 @@ header .fa-bars{
 }
 
 .review .box-container .box .stars i{
-    color: var(--pink);
+    color: #014E2C;
     font-size: 2rem;
 }
 
@@ -419,101 +456,8 @@ header .fa-bars{
     color: #999;
 }
 
-form {
-    background-color: #F1B4BB; /* Ganti warna sesuai kebutuhan Anda */
-    padding: 20px;
-    border-radius: 10px; /* Menambahkan sudut lengkung pada formulir */
-  }
-  
-  /* Tambahkan warna latar belakang pada tombol Kirim jika diinginkan */
-  .btn-primary {
-    background-color:#e84393;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .btn-primary:hover {
-    background-color: #df3347;
-  }
-   
 
-
-
-
-/* media queries*/
-@media (max-width:991px){
-    
-html{
-    font-size: 55%
-}
-header{
-    padding: 2rem;
-}
-section{
-    padding: 2rem;
-}
-.home{
-    background-position: center;
-}
-
-}
-
-@media (max-width:768px){
-    html .fa-bars{
-        display: block;
-    }
-    header .navbar{
-        position: absolute;
-        top: 100%; left: 0; right: 0;
-        background: #eee;
-        border-top: .1rem solid rgba(0,0,0,.1);
-        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    }
-
-    header #toggler:checked ~ .navbar{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);;
-    }
-    header .navbar a{
-        margin: 1.5rem;
-        padding: 1.5rem;
-        background: #fff;
-        border: .1rem solid rgb(0, 0, 0, .1);
-        display: block;
-    }
-    .home.content h3{
-        font-size: 5rem;
-
-    }
-    .home.content span{
-        font-size: 2.5rem;
-        
-    }
-    .icons-container .icons h3{
-        
-        font-size: 2rem;
-    }
-    
-    
-    .icons-container .icons span{
-        font-size: 1.7rem;
-    }
-}
-
-
-@media (max-width:450px){
-    
-    html{
-        font-size: 50%
-    }
-    .heading{
-        font-size: 3rem;
-    }
-    
-    }
-
+/* ===== PESANAN ======= */
 
 
 

@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
   <div class="container">
-    <a class="navbar-brand" href="#">Hanza Florist</a>
+    {{-- <a class="navbar-brand" href="#">Florahunt</a> --}}
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -8,18 +8,18 @@
       <ul class="navbar-nav">
         
         {{-- ====Latihan==== --}}
-        {{-- <li class="nav-item"> --}}
-          {{-- <a class="nav-link {{ ( $title == 'Home' ) ? 'active': '' }}" aria-current="page" href="/">Home</a> --}}
-        {{-- </li> --}}
-        {{-- <li class="nav-item"> --}}
-          {{-- <a class="nav-link  {{ ( $title == 'About' ) ? 'active': '' }}" href="/about">About</a> --}}
-        {{-- </li> --}}
-        {{-- <li class="nav-item"> --}}
-          {{-- <a class="nav-link  {{ ( $title == 'Gallery' ) ? 'active': '' }}" href="/gallery">Gallery</a> --}}
-        {{-- </li> --}}
-        {{-- <li class="nav-item"> --}}
-          {{-- <a class="nav-link  {{ ( $title == 'Contacts' ) ? 'active': '' }}" href="{{ route('contacts.create') }}">Saran</a> --}}
+        <li class="nav-item"> 
+          <a class="nav-link {{ ( $title == 'Home' ) ? 'active': '' }}" aria-current="page" href="/">Home</a>
         </li>
+        <li class="nav-item"> 
+          <a class="nav-link  {{ ( $title == 'Product' ) ? 'active': '' }}" href="/product">Product</a> 
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link  {{ ( $title == 'Cart' ) ? 'active': '' }}" href="/cart">Cart</a> 
+        </li>
+        {{-- <li class="nav-item">
+          <a class="nav-link  {{ ( $title == 'Contacts' ) ? 'active': '' }}" href="{{ route('contacts.create') }}">Saran</a>
+        </li> --}}
       </ul>
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">

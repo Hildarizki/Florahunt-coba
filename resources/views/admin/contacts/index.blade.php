@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Hilda | Data Contacts')
+@section('title', 'Florahunt | Data Contacts')
 @section('content')
 <!-- MAIN CONTENT-->
 <div class="main-content">
@@ -8,7 +8,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="overview-wrap">
-                                    <h2 class="title-1">Kotak Saran yang diberikan</h2>
+                                    <h2 class="title-1">Data Pesanan Customer</h2>
                                 </div>
                             </div>
                         </div><div class="row m-t-30">
@@ -21,7 +21,7 @@
                                                 <th>No</th>
                                                 <th>Nama</th>
                                                 <th>Email</th>
-                                                <th>Hasil Kotak Saran</th>
+                                                <th>Pesanan</th>
                                                 <th>Aksi</th>
                                             </tr>
                                         </thead>
@@ -31,7 +31,7 @@
                                                 <td>{{$index + 1}}</td>
                                                 <td>{{$contact->nama}}</td>
                                                 <td>{{$contact->email}}</td>
-                                                <td> {{$contact->kotaksaran}}</td>
+                                                <td>{{$contact->pesanan}}</td>
                                                 <td>
                                                     <a href="{{ route('contacts.edit',$contact->id)}}"><i class="fas fa-edit"></i></a>
 
@@ -49,7 +49,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="copyright">
-                                    <p>Copyright hilda rizki aulia | 2023 <a href="https://colorlib.com">Colorlib</a>.</p>
+                                    <p>Copyright florahunt | 2024 <a href="https://colorlib.com">Colorlib</a>.</p>
                                 </div>
                             </div>
                         </div>

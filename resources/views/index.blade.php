@@ -21,10 +21,10 @@
      <!--Home section starts-->
      <section class="home" id="home">
         <div class="content">
-            <h3>Fresh Flowers</h3>
-            <span>Natural & beautiful flowers</span>
-            <p>Selamat datang di Hanza Florist, tempat magis yang mengundang anda merayakan setiap momen istimewa dengan keindahan bunga. Mari bersama-sama hiasi kehidupan dengan pesona bunga yang tak terlupakan.</p>
-            <a href="#products" class="btn"> Shop Now</a>
+            <h3>EMBRACE NATURAL SERENITY</h3>
+            <span>Monstera</span>
+            <p>Selamat datang di Florahunt, tempat magis yang mengundang anda merayakan setiap momen istimewa dengan keindahan tanaman. Mari bersama-sama hiasi kehidupan dengan pesona bunga yang tak terlupakan.</p>
+            <a href="#products" class="btn"> Buy Now</a>
         </div>
      </section>
 
@@ -32,25 +32,40 @@
     <!--Home section ends-->
 
 
-  <!--About section starts-->
+ 
+<!-- About section starts -->
+
+<!-- About section starts -->
 <section class="about" id="about">
     <h1 class="heading"><span>about</span> us</h1>
     <div class="row">
-        <div class="video-container">
-            <video src="/images/about-vid.mp4 " loop autoplay muted></video>
-            <h3>best flowers sellers</h3>
-        </div>
         <div class="content">
-            <h3>why choose us?</h3>
-            <p>Website Hanza Florist adalah destinasi online yang memikat, menawarkan pengalaman berbelanja bunga yang elegan dan layanan pengiriman tepat waktu, menjadikan setiap momen lebih berwarna.</p>
-            <p>Dengan galeri rangkaian bunga yang memikat dan antarmuka yang ramah pengguna, Hanza Florist mengajak pelanggan untuk menjelajahi keindahan alam dalam setiap klik.</p>
-            <a href="#" class="btn">Learn More</a>
-
+            <div class="centered-text">
+                <h3>Best Selling Plants</h3>
+                <a href="#products" class="btn">Learn More</a>
+            </div>
+        </div>
+        <div class="image-grid">
+            <!-- Grid Item 1 -->
+            <div class="grid-item">
+                <img src="/images/plants1.1.png" alt="Plant 1">
+            </div>
+            <!-- Grid Item 2 -->
+            <div class="grid-item">
+                <img src="/images/plants1.2.png" alt="Plant 2">
+            </div>
+            <!-- Grid Item 3 -->
+            <div class="grid-item">
+                <img src="/images/plants1.3.png" alt="Plant 3">
+            </div>
+            <!-- Grid Item 4 -->
+            <div class="grid-item">
+                <img src="/images/plants1.4.png" alt="Plant 4">
+            </div>
         </div>
     </div>
 </section>
-
-  <!--About section ends-->
+<!--About section ends-->
 
 
 <!--icons section starts-->
@@ -94,199 +109,199 @@
 <!--Products section stars-->
 
 <section class="products" id="products">
-    <h1 class="heading">latest <span>products</span></h1>
+    <h1 class="heading"><span>Our Products</span></h1>
     <div class="box-container">
         <div class="box">
             <span class="discount">-10%</span>
             <div class="image">
-                <img src="/images/img-1.jpg" alt="">
-                <div class="icons">
+                <img src="/images/plants1.png" alt="">
+                {{-- <div class="icons">
                     <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
                     <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
                     <a href="#" class="fas fa-share" style="text-decoration: none;"></a>                    
-                </div>
+                </div> --}}
             </div>
             <div class="content">
-                <h3>Flower pot</h3>
-                <div class="price">$17.99 <span>$15.99</span></div>
+                <h3>Tulipa Gesneriana</h3>
+                <div class="price">Rp. 130.500 <span>Rp. 145.000</span></div>
             </div>
         </div>
 
         <div class="box">
             <span class="discount">-15%</span>
             <div class="image">
-                <img src="/images/img-2.jpg" alt="">
+                <img src="/images/plants2.png" alt="">
                 <div class="icons">
                     <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
-                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
+                    <a href="#cart" class="cart-btn" style="text-decoration: none;">add to cart</a>
                     <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
                 </div>
             </div>
             <div class="content">
-                <h3>Flower pot</h3>
-                <div class="price">$13.99 <span>$15.99</span></div>
+                <h3>Tulip Orange</h3>
+                <div class="price">Rp. 127.500 <span>Rp. 150.000</span></div>
             </div>
         </div>
 
         <div class="box">
             <span class="discount">-5%</span>
             <div class="image">
-                <img src="/images/img-3.jpg" alt="">
-                <div class="icons">
+                <img src="/images/plants3.png" alt="">
+                {{-- <div class="icons">
                     <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
                     <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
                     <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
-                </div>
+                </div> --}}
             </div>
             <div class="content">
-                <h3>Flower pot</h3>
-                <div class="price">$14.99 <span>$15.99</span></div>
+                <h3>Tulip Merah</h3>
+                <div class="price">Rp. 118.750 <span>Rp. 125.000</span></div>
             </div>
         </div>
 
         <div class="box">
             <span class="discount">-20%</span>
             <div class="image">
-                <img src="/images/img-4.jpg" alt="">
-                <div class="icons">
+                <img src="/images/plants4.png" alt="">
+                {{-- <div class="icons">
                     <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
                     <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
                     <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
-                </div>
+                </div> --}}
             </div>
             <div class="content">
-                <h3>Flower pot</h3>
-                <div class="price">$12.99 <span>$15.99</span></div>
+                <h3>Tulip Air</h3>
+                <div class="price">Rp. 100.000 <span>Rp. 125.000</span></div>
             </div>
         </div>
 
         <div class="box">
             <span class="discount">-17%</span>
             <div class="image">
-                <img src="/images/img-5.jpg" alt="">
-                <div class="icons">
+                <img src="/images/plants5.png" alt="">
+                {{-- <div class="icons">
                     <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
                     <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
                     <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
-                </div>
+                </div> --}}
             </div>
             <div class="content">
-                <h3>Flower pot</h3>
-                <div class="price">$14.99 <span>$15.99</span></div>
+                <h3>Tulip Putih</h3>
+                <div class="price">Rp. 103.750 <span>Rp. 125.000</span></div>
             </div>
         </div>
 
         <div class="box">
             <span class="discount">-3%</span>
             <div class="image">
-                <img src="/images/img-6.png" alt="">
-                <div class="icons">
+                <img src="/images/plants6.png" alt="">
+                {{-- <div class="icons">
                     <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
                     <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
                     <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
-                </div>
+                </div> --}}
             </div>
             <div class="content">
-                <h3>Flower pot</h3>
-                <div class="price">$18.99 <span>$15.99</span></div>
+                <h3>Buket Bunga</h3>
+                <div class="price">Rp. 48.500 <span>Rp. 50.000</span></div>
             </div>
         </div>
 
-        <div class="box">
+        {{-- <div class="box">
             <span class="discount">-18%</span>
             <div class="image">
-                <img src="/images/img-7.jpg" alt="">
-                <div class="icons">
+                <img src="/images/img-7.jpg" alt=""> --}}
+                {{-- <div class="icons">
                     <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
                     <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
                     <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
-                </div>
-            </div>
+                </div> --}}
+            {{-- </div>
             <div class="content">
-                <h3>Flower pot</h3>
-                <div class="price">$15.99 <span>$15.99</span></div>
+                <h3>Tulip Orange</h3>
+                <div class="price">Rp. 102.500 <span>Rp. 125.000</span></div>
             </div>
-        </div>
+        </div> --}}
 
-        <div class="box">
+        {{-- <div class="box">
             <span class="discount">-10%</span>
             <div class="image">
-                <img src="/images/img-8.jpg" alt="">
-                <div class="icons">
+                <img src="/images/img-8.jpg" alt=""> --}}
+                {{-- <div class="icons">
                     <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
                     <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
                     <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
-                </div>
-            </div>
+                </div> --}}
+            {{-- </div>
             <div class="content">
-                <h3>Flower pot</h3>
-                <div class="price">$17.99 <span>$15.99</span></div>
+                <h3>Tulip Merah</h3>
+                <div class="price">Rp. 112.500 <span>Rp. 125.000</span></div>
             </div>
-        </div>
+        </div> --}}
 
-        <div class="box">
+        {{-- <div class="box">
             <span class="discount">-5%</span>
             <div class="image">
-                <img src="/images/img-9.jpg" alt="">
-                <div class="icons">
+                <img src="/images/img-9.jpg" alt=""> --}}
+                {{-- <div class="icons">
                     <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
                     <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
                     <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
-                </div>
-            </div>
+                </div> --}}
+            {{-- </div>
             <div class="content">
-                <h3>Flower pot</h3>
-                <div class="price">$11.99 <span>$15.99</span></div>
+                <h3>Tulip Merah</h3>
+                <div class="price">Rp. 118.750 <span>Rp. 125.000</span></div>
             </div>
-        </div>
-
+        </div> --}}
+{{-- 
         <div class="box">
             <span class="discount">-11%</span>
             <div class="image">
-                <img src="/images/img-10.png" alt="">
-                <div class="icons">
+                <img src="/images/img-10.png" alt=""> --}}
+                {{-- <div class="icons">
                     <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
                     <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
                     <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
-                </div>
-            </div>
+                </div> --}}
+            {{-- </div>
             <div class="content">
-                <h3>Flower pot</h3>
-                <div class="price">$11.99 <span>$15.99</span></div>
+                <h3>Rustic Peony</h3>
+                <div class="price">Rp. 102.350 <span>Rp. 115.000</span></div>
             </div>
-        </div>
+        </div> --}}
 
-        <div class="box">
+        {{-- <div class="box">
             <span class="discount">-9%</span>
             <div class="image">
                 <img src="/images/img-11.png" alt="">
-                <div class="icons">
+                {{-- <div class="icons">
                     <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
                     <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
                     <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
-                </div>
-            </div>
+                </div> --}}
+            {{-- </div>
             <div class="content">
-                <h3>Flower pot</h3>
-                <div class="price">$13.99 <span>$15.99</span></div>
+                <h3>Tulip Pink</h3>
+                <div class="price">Rp. 113.750 <span>Rp. 125.000</span></div>
             </div>
-        </div>
+        </div>  --}}
 
-        <div class="box">
+        {{-- <div class="box">
             <span class="discount">-5%</span>
             <div class="image">
                 <img src="/images/img-12.png" alt="">
-                <div class="icons">
+                {{-- <div class="icons">
                     <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
                     <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
                     <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
-                </div>
-            </div>
-            <div class="content">
-                <h3>Flower pot</h3>
-                <div class="price">$18.99 <span>$15.99</span></div>
-            </div>
-        </div>
+                </div> --}}
+            {{-- </div>
+            {{-- {{-- <div class="content">
+                <h3>Mawar ungu</h3>
+                <div class="price">Rp. 156.750 <span>Rp. 165.000</span></div>
+            </div> 
+        </div> --}}
     </div>
 </section>
 <!--Products section ends-->
@@ -380,34 +395,180 @@
 
 </body>
 </html> 
+{{-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pesanan</title>
+</head>
+<body>
 
-    <h2 class="fw-bold">Kotak Saran Umum</h2>
-    <form method="post" action="{{route('contacts.store')}}">
-      {{csrf_field()}}
-      <div class="form-floating mb-3">
-        <input type="text" class="form-control" id="inputnama" placeholder="Nama" name="nama">
-        <label for="inputname">Nama</label>
-      </div>
-      <div class="form-floating mb-3">
-        <input type="email" class="form-control" id="inputemail" placeholder="Email" name="email"> 
-        <label for="inputemail" class="form-label">Email</label> 
-      </div>
-      <div class="form-floating mb-3">
-      <textarea class="form-control" placeholder="Tinggalkan pesan disini!" id="floatingTextarea2" style="height: 100px;" name="kotaksaran"></textarea>
-      <label for="floatingTextarea2">Saran / Kritik</label>
-    </div>
-    <a href="#">
-      <button type="submit" class="btn btn-primary" onclick="showAlert()">Kirim</button>
-    </a>
-    <body>
-        <script>
-            function showAlert(){
-                alert('Isi dulu yaaa!!');
+    <h2 class="fw-bold">Kotak Pesanan</h2>
+    <form method="post" action="{{route('contacts.store')}}" onsubmit="return validateForm()">
+        {{csrf_field()}}
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="inputnama" placeholder="Nama" name="nama">
+            <label for="inputname">Nama</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="inputemail" placeholder="Email" name="email"> 
+            <label for="inputemail" class="form-label">Email</label> 
+        </div>
+        <div class="form-floating mb-3">
+            <textarea class="form-control" placeholder="Tinggalkan pesan disini!" id="floatingTextarea2" style="height: 100px;" name="kotaksaran"></textarea>
+            <label for="floatingTextarea2">Pesanan</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Kirim</button>
+    </form> --}}
+
+    {{-- <script>
+        function validateForm() {
+            var nama = document.getElementById('inputnama').value;
+            var email = document.getElementById('inputemail').value;
+            var pesan = document.getElementById('floatingTextarea2').value;
+
+            if (nama === "" || email === "" || pesan === "") {
+                alert('Harap isi semuanya sebelum mengirim formulir!');
+                return false;
             }
-        </script>
-    </body>
+
+            return true;
+        }
+    </script> --}}
+
     
-    </form>
+<!DOCTYPE html>
+<html>
+<head>
+	{{-- <!-- *******  Link To CSS Style Sheet  ******* -->
+	<link rel="stylesheet" type="text/css" href="style.css"> --}}
+
+	<!-- *******  Font Awesome Icons Link  ******* -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+	<!-- *******  Link To Goggle Fonts  *******  -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,900&display=swap" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Contact Section</title>
+</head>
+<body>
+	<div class="container">
+		<main class="row">
+			
+			<!--  *******   Left Section (Column) Starts   *******  -->
+
+			<section class="col left">
+				
+				<!--  *******   Title Starts   *******  -->
+
+				<div class="contactTitle">
+					<h2>Get In Touch</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+				</div>
+
+				<!--  *******   Title Ends   *******  -->
+
+				<!--  *******   Contact Info Starts   *******  -->
+
+				<div class="contactInfo">
+					
+					<div class="iconGroup">
+						<div class="icon">
+							<i class="fa-solid fa-phone"></i>
+						</div>
+						<div class="details">
+							<span>Phone</span>
+							<span>+00 110 111 00</span>
+						</div>
+					</div>
+
+					<div class="iconGroup">
+						<div class="icon">
+							<i class="fa-solid fa-envelope"></i>
+						</div>
+						<div class="details">
+							<span>Email</span>
+							<span>name.tutorial@gmail.com</span>
+						</div>
+					</div>
+
+					<div class="iconGroup">
+						<div class="icon">
+							<i class="fa-solid fa-location-dot"></i>
+						</div>
+						<div class="details">
+							<span>Location</span>
+							<span>X Street, Y Road, San Fransisco</span>
+						</div>
+					</div>
+
+				</div>
+
+				<!--  *******   Contact Info Ends   *******  -->
+
+				<!--  *******   Social Media Starts   *******  -->
+
+				<div class="socialMedia">
+					<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+					<a href="#"><i class="fa-brands fa-twitter"></i></a>
+					<a href="#"><i class="fa-brands fa-instagram"></i></a>
+					<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+				</div>
+
+				<!--  *******   Social Media Ends   *******  -->
+
+			</section>
+
+			<!--  *******   Left Section (Column) Ends   *******  -->
+
+			<!--  *******   Right Section (Column) Starts   *******  -->
+
+			<section class="col right">
+				
+				<!--  *******   Form Starts   *******  -->
+
+				<form class="messageForm">
+					
+					<div class="inputGroup halfWidth">
+						<input type="text" name="" required="required">
+						<label>Your Name</label>
+					</div>
+
+					<div class="inputGroup halfWidth">
+						<input type="email" name="" required="required">
+						<label>Email</label>
+					</div>
+
+					<div class="inputGroup fullWidth">
+						<input type="text" name="" required="required">
+						<label>Subject</label>
+					</div>
+
+					<div class="inputGroup fullWidth">
+						<textarea required="required"></textarea>
+						<label>Say Something</label>
+					</div>
+
+					<div class="inputGroup fullWidth">
+						<button>Send Message</button>
+					</div>
+
+				</form>
+
+				<!--  *******   Form Ends   *******  -->
+			</section>
+
+			<!--  *******   Right Section (Column) Ends   *******  -->
+
+		</main>
+	</div>
+</body>
+</html>
+
+
 @endsection 
        
 

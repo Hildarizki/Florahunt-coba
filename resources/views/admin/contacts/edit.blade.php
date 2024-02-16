@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Hilda | Data Contacts')
+@section('title', 'Florahunt | Data Contacts')
 @section('content')
 <!-- MAIN CONTENT-->
 <div class="main-content">
@@ -9,7 +9,7 @@
                             <div class="col-md-12">
                                 <div class="card">
                                     <div class="card-header">
-                                        <strong>Form Edit</strong> Kotak Saran 
+                                        <strong>Form Edit</strong> Kotak Pesanan
                                     </div>
                                     <div class="card-body card-block">
                                         <form action="{{route('contacts.update',$contact->id)}}" method="post" class="">
@@ -24,8 +24,8 @@
                                                 <input type="email" name="email" class="form-control" value="{{ $contact->email}}">
                                             </div>
                                             <div class="form-group">
-                                                <label for="nf-email" class=" form-control-label">Saran</label>
-                                                <textarea name="pesan" class="form-control">{{ $contact->kotaksaran}}</textarea>
+                                                <label for="nf-email" class=" form-control-label">Pesanan</label>
+                                                <textarea name="pesanan" class="form-control">{{$contact->pesanan}}</textarea>
                                             </div>
                                             <div class="card-footer">
                                                 <button type="submit" class="btn btn-primary btn-sm">
@@ -38,7 +38,7 @@
                                 </div>
                             </div>
                                 <div class="copyright">
-                                    <p>Copyright © 2018 Colorlib. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
+                                    <p>Copyright © 2024 | Florahunt<a href="https://colorlib.com">Colorlib</a>.</p>
                                 </div>
                             </div>
                         </div>
