@@ -48,19 +48,19 @@
         <div class="image-grid">
             <!-- Grid Item 1 -->
             <div class="grid-item">
-                <img src="/images/plants1.1.png" alt="Plant 1">
+                <img src="/images/1.1.png" alt="Plant 1">
             </div>
             <!-- Grid Item 2 -->
             <div class="grid-item">
-                <img src="/images/plants1.2.png" alt="Plant 2">
+                <img src="/images/1.2.png" alt="Plant 2">
             </div>
             <!-- Grid Item 3 -->
             <div class="grid-item">
-                <img src="/images/plants1.3.png" alt="Plant 3">
+                <img src="/images/1.3.png" alt="Plant 3">
             </div>
             <!-- Grid Item 4 -->
             <div class="grid-item">
-                <img src="/images/plants1.4.png" alt="Plant 4">
+                <img src="/images/1.4.png" alt="Plant 4">
             </div>
         </div>
     </div>
@@ -112,98 +112,140 @@
     <h1 class="heading"><span>Our Products</span></h1>
     <div class="box-container">
         <div class="box">
-            <span class="discount">-10%</span>
+            {{-- <span class="discount">-10%</span> --}}
             <div class="image">
                 <img src="/images/plants1.png" alt="">
-                {{-- <div class="icons">
-                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
-                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
-                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>                    
-                </div> --}}
+                <div class="icons">
+                    {{-- <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a> --}}
+                    <a href="#" class="fas fa-plus" style="text-decoration: none;"></a>
+                </div> 
             </div>
             <div class="content">
-                <h3>Tulipa Gesneriana</h3>
-                <div class="price">Rp. 130.500 <span>Rp. 145.000</span></div>
+                <h3>Phalaenopsis</h3>
+                <div class="price">Rp 290.000,- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
             </div>
         </div>
 
         <div class="box">
-            <span class="discount">-15%</span>
+            {{-- <span class="discount">-15%</span> --}}
             <div class="image">
                 <img src="/images/plants2.png" alt="">
                 <div class="icons">
-                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
-                    <a href="#cart" class="cart-btn" style="text-decoration: none;">add to cart</a>
-                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
+                    {{-- <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#cart" class="cart-btn" style="text-decoration: none;">add to cart</a> --}}
+                    <a href="#" class="fas fa-plus" style="text-decoration: none;"></a>  
                 </div>
             </div>
             <div class="content">
-                <h3>Tulip Orange</h3>
-                <div class="price">Rp. 127.500 <span>Rp. 150.000</span></div>
+                <h3>Zygocactus</h3>
+                <div class="price">Rp 180.000,- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
             </div>
         </div>
 
         <div class="box">
-            <span class="discount">-5%</span>
+            {{-- <span class="discount">-5%</span> --}}
             <div class="image">
                 <img src="/images/plants3.png" alt="">
-                {{-- <div class="icons">
-                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
-                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
-                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
-                </div> --}}
+                <div class="icons">
+                    {{-- <a href="#" class="fas fa-heart" style="text-decoration: none;"></a> --}}
+                    {{-- <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a> --}}
+                    <a href="#" class="fas fa-plus" style="text-decoration: none;"></a>  
+                </div> 
             </div>
             <div class="content">
-                <h3>Tulip Merah</h3>
-                <div class="price">Rp. 118.750 <span>Rp. 125.000</span></div>
+                <h3>Doritaenopsis</h3>
+                <div class="price">Rp 75.000,- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
             </div>
         </div>
 
         <div class="box">
-            <span class="discount">-20%</span>
+            {{-- <span class="discount">-20%</span> --}}
             <div class="image">
                 <img src="/images/plants4.png" alt="">
-                {{-- <div class="icons">
-                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
-                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
-                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
-                </div> --}}
+                <div class="icons">
+                    {{-- <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a> --}}
+                    <a href="#" class="fas fa-plus" style="text-decoration: none;"></a>  
+                </div>
             </div>
             <div class="content">
-                <h3>Tulip Air</h3>
-                <div class="price">Rp. 100.000 <span>Rp. 125.000</span></div>
+                <h3>Drago</h3>
+                <div class="price">Rp 40.000,-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
             </div>
         </div>
 
         <div class="box">
-            <span class="discount">-17%</span>
+            {{-- <span class="discount">-17%</span> --}}
             <div class="image">
                 <img src="/images/plants5.png" alt="">
-                {{-- <div class="icons">
-                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
-                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
-                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
-                </div> --}}
+                <div class="icons">
+                    {{-- <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a> --}}
+                    <a href="#" class="fas fa-plus" style="text-decoration: none;"></a>  
+                </div>
             </div>
             <div class="content">
-                <h3>Tulip Putih</h3>
-                <div class="price">Rp. 103.750 <span>Rp. 125.000</span></div>
+                <h3>Monstera</h3>
+                <div class="price">Rp 75.000,-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
             </div>
         </div>
 
         <div class="box">
-            <span class="discount">-3%</span>
+            {{-- <span class="discount">-3%</span> --}}
             <div class="image">
                 <img src="/images/plants6.png" alt="">
-                {{-- <div class="icons">
-                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
-                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
-                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>  
-                </div> --}}
+                <div class="icons">
+                    {{-- <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a> --}}
+                    <a href="#" class="fas fa-plus" style="text-decoration: none;"></a>  
+                </div>
             </div>
             <div class="content">
-                <h3>Buket Bunga</h3>
-                <div class="price">Rp. 48.500 <span>Rp. 50.000</span></div>
+                <h3>Aglonema</h3>
+                <div class="price">Rp 115.000,-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
             </div>
         </div>
 
@@ -309,7 +351,7 @@
 
 <!--review section starts-->
 <section class="review" id="review">
-    <h1 class="heading">customer's <span>review</span></h1>
+    <h1 class="heading">What Our Clients <span>Say About Us</span></h1>
     <div class="box-container">
         <div class="box">
             <div class="stars">
@@ -319,11 +361,11 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
             </div>
-            <p>"Saya sangat terkesan dengan keindahan dan kemudahan penggunaan website Hanza Florist; layanan pengiriman yang tepat waktu dan kualitas bunga yang luar biasa membuat setiap pembelian di sini menjadi pengalaman berbelanja online yang memuaskan."</p>
+            <p>"Never regret ordering flowers here because the delivery is fast so the flowers are still fresh."</p>
             <div class="user">
                 <img src="/images/pic-1.png" alt="">
                 <div class="user-info">
-                    <h3>charles Deco</h3>
+                    <h3>@Mazeluv</h3>
                     <span>Happy Customers</span>
                 </div>
             </div>
@@ -338,18 +380,18 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
             </div>
-            <p>"Pengalaman berbelanja di Hanza Florist sungguh luar biasa; navigasi yang intuitif, pilihan bunga yang beragam, dan sentuhan personalisasi pada setiap rangkaian bunga menjadikan situs ini pilihan utama saya untuk merayakan momen istimewa."</p>
+            <p>"The flowers here are very fresh and the price is very affordable besides that the admin is also very friendly."</p>
             <div class="user">
                 <img src="/images/pic-2.png" alt="">
                 <div class="user-info">
-                    <h3>sharon michel</h3>
+                    <h3>@Ditto</h3>
                     <span>Happy Customers</span>
                 </div>
             </div>
             <span class="fas fa-quote-right"></span>
         </div>
 
-        <div class="box">
+        {{-- <div class="box">
             <div class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -383,9 +425,9 @@
                     <h3>Sofia wick</h3>
                     <span>Happy Customers</span>
                 </div>
-            </div>
-            <span class="fas fa-quote-right"></span>
-        </div>
+            </div> --}}
+            {{-- <span class="fas fa-quote-right"></span>
+        </div> --}}
     </div>
 </section>
 

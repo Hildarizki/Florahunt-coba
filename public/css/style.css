@@ -1,5 +1,5 @@
 :root{
-    --pink:#e84393;
+    --pink:#014E2C;
 }
 
 /*  =====CCS Navbar==== */
@@ -16,18 +16,18 @@
     text-decoration: none; /* Menghapus garis bawah pada tautan */
   }
   .navbar-brand:hover {
-    color: #555; /* Warna teks saat dihover */
+    color: #491c1c; /* Warna teks saat dihover */
   }
 
   /* CSS untuk Nav Link Login */
 .nav-link {
-    color: #007bff; /* Warna teks */
+    color: #014E2C; /* Warna teks */
     font-size: 14px; /* Ukuran font */
     text-decoration: none; /* Menghapus garis bawah pada tautan */
     transition: color 0.3s ease-in-out; /* Animasi perubahan warna saat hover */
   }
   .nav-link:hover {
-    color: #0056b3; /* Warna teks saat dihover */
+    color: #014E2C; /* Warna teks saat dihover */
   }
   
   
@@ -288,7 +288,7 @@ header .fa-bars{
 }
 
 .icons-container .icons h3{
-    color: #333;
+    color: #014E2C;
     padding-bottom: .5rem;
     font-size: 1.5rem;
 }
@@ -340,11 +340,23 @@ header .fa-bars{
     transform: scale(1.1);
 }
 
-.products .box-container .box .image .icons{
+.products .box-container .box .image .icons {
     position: absolute;
-    bottom: -7rem; left: 0; right: 0;
+    bottom: -7rem;
+    right: 0;
     display: flex;
 }
+
+.products .box-container .box .image .icons a {
+    background-color: #014E2C; /* Warna latar belakang */
+    border-radius: 50%; /* Membuat lingkaran */
+    padding: 30px; /* Jarak antara ikon dan batas lingkaran */
+    margin-left: 5px; /* Jarak antara ikon */
+    display: flex; /* Mengaktifkan flexbox */
+    justify-content: center; /* Pusatkan konten horizontal */
+    align-items: center; /* Pusatkan konten vertikal */
+}
+
 
 .products .box-container .box:hover .image .icons{
     bottom: 0;
@@ -377,13 +389,15 @@ header .fa-bars{
 .products .box-container .box .content h3{
     font-size: 2.5rem;
     color: #333;
+    font-family: 'Poppins', sans-serif; /* Font family Poppins */
 }
 
-.products .box-container .box .content .price{
+.products .box-container .box .content .price {
     font-size: 2.5rem;
-    color: #014E2C;
-    font-weight: bolder;
+    color: #939393;
+    /* font-weight: bolder; */
     padding-top: 1rem;
+    font-family: 'Poppins', sans-serif; /* Font family Poppins */
 }
 
 .products .box-container .box .content .price span{

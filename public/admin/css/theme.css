@@ -365,7 +365,7 @@ section {
 }
 
 .login-checkbox > label > a {
-    color: #ff2e44;
+    color: #014E2C;
 }
 
 @media (max-width: 991px) {
@@ -405,7 +405,7 @@ section {
 }
 
 .register-link > p > a {
-    color: #ff2e44;
+    color: #014E2C;
 }
 
 .fontawesome-list-wrap {
@@ -484,15 +484,15 @@ section {
 }
 
 .au-btn--blue {
-    background: #4272d7;
+    background: #014E2C;
 }
 
 .au-btn--green {
-    background: #e84393;
+    background: #014E2C;
 }
 
 .au-btn--green:hover {
-    background: #e84393;
+    background: #014E2C;
 }
 
 .au-btn-plus {
