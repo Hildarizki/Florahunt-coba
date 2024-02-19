@@ -58,7 +58,8 @@
                                         <a href="#">Forgotten Password?</a>
                                     </label>
                                 </div> --}}
-                                <button class="au-btn au-btn--block au-btn--green m-b-20" type="submit">login</button>
+                                <button class="au-btn au-btn--block au-btn--green m-b-20" type="submit">login as customer</button>
+                                <button class="au-btn au-btn--block au-btn--green m-b-20" type="submit">login as admin</button>
                                 {{-- <div class="social-login-content">
                                     <div class="social-button">
                                         <button class="au-btn au-btn--block au-btn--blue m-b-20">sign in with facebook</button>

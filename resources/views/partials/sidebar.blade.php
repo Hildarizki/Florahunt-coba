@@ -31,8 +31,14 @@
                                     <i class="fas fa-chart-bar"></i>Data Pesanan</a>
                                 </a>
                             </li>
-                            {{-- <a href="{{ route('contacts.index') }}"style="text-decoration:none;" > --}}
-                                {{-- <i class="fas fa-chart-bar"></i>Data Kotak Saran</a> --}}
+                            <li>
+                                <li class="nav-item {{ Request::is('contacts.index') ? 'active' : '' }}">
+                                    <a class="nav-link" href="{{ route('contacts.index') }}">
+                                        <i class="fas fa-cart-bar"></i>Keranjang</a>
+                                    </a>
+                                </li>
+                            {{-- <a href="{{ route('contacts.index') }}"style="text-decoration:none;" >
+                                <i class="fas fa-chart"></i></a> --}}
                         </li>
                         <li>
                             {{-- <a href="table.html"style="text-decoration:none;" >
