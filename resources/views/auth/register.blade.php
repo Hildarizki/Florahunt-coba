@@ -24,7 +24,7 @@
                     <div class="login-content">
                         <div class="login-logo">
                             <a href="#">
-                                <img src="{{asset('images/logo-florahunt.png')}}" alt="Absensi Karyawan">
+                                <img src="{{asset('images/logo-florahunt1111.png')}}" alt="Absensi Karyawan">
                             </a>
                         </div>
                         <div class="login-form">

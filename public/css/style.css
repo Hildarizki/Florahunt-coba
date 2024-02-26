@@ -472,7 +472,25 @@ header .fa-bars{
 
 
 /* ===== PESANAN ======= */
-
+form {
+    background-color: #027946; /* Ganti warna sesuai kebutuhan Anda */
+    padding: 20px;
+    border-radius: 10px; /* Menambahkan sudut lengkung pada formulir */
+  }
+  
+  /* Tambahkan warna latar belakang pada tombol Kirim jika diinginkan */
+  .btn-primary {
+    background-color:#014E2C;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #027946;
+  }
 
 
 
